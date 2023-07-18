@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pythonmastermind"
+version = "0.1.0"
+description = ""
+authors = ["jenrey <jenrey@foxmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.mkdocs.dependencies]
+mkdocs-material = "^9.1.18"
+mkdocs-git-revision-date-localized-plugin = "^1.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
